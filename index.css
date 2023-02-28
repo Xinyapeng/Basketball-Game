@@ -1,0 +1,68 @@
+@font-face{
+    src:url("CursedTimerUlil-Aznm.ttf");
+    font-family: ScreenNum;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+#NewGame{
+    margin: 26px 2px 0 2px;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: #9AABD8;
+    font-size: 15px;
+    color: #1B244A;
+    width: 120px;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+}
+h3{
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: ScreenNum;
+}
+
+#Num1,#Num2{
+    font-size: 90px;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 120px;
+    background-color: #080001;
+    border-left: 19px solid #080001;
+    border-right: 19px solid #080001;
+    border-radius: 5%;
+    margin-bottom: 0px;
+    margin-top: 21px;
+}
+
+#increment1-btn,#increment2-btn{
+    font-family: ScreenNum;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    font-size: 18px;
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 10%;
+    margin: 26px 2px 0 2px;
+}
